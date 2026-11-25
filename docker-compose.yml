@@ -1,0 +1,6 @@
+services:
+  todo-api:
+    build: .
+    container_name: todo-api-container
+    ports:
+      - "8000:8000"
